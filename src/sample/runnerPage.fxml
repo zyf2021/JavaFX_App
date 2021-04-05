@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RunnerPage">
+   <children>
+      <AnchorPane prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: gray;" />
+      <AnchorPane layoutY="330.0" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: gray;">
+         <children>
+            <Button fx:id="backBtn" layoutX="520.0" layoutY="25.0" mnemonicParsing="false" onAction="#MainWindowOpen" style="-fx-background-color: lightgray;" text="Назад" />
+         </children></AnchorPane>
+      <Button layoutX="250.0" layoutY="180.0" mnemonicParsing="false" style="-fx-background-color: lightgray;" text="Я уже участвовал" />
+      <Button layoutX="270.0" layoutY="120.0" mnemonicParsing="false" style="-fx-background-color: lightgray;" text="Я новичок" AnchorPane.bottomAnchor="255.0" />
+   </children>
+</AnchorPane>

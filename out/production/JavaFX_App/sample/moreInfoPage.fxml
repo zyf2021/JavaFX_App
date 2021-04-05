@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.MoreInfoPage"
+            prefHeight="400.0" prefWidth="600.0">
+        <children>
+            <AnchorPane fx:id="AnchorPane_Top" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: gray;">
+                <children>
+                    <Label layoutX="60.0" layoutY="17.0" text="МАРАФОН 2016" textFill="#fafafa">
+                        <font>
+                            <Font name="Comic Sans MS Bold" size="24.0" />
+                        </font>
+                    </Label>
+                </children></AnchorPane>
+            <AnchorPane fx:id="AnchorPane_Botton" layoutY="330.0" prefHeight="70.0" prefWidth="600.0"
+                        style="-fx-background-color: gray;">
+                <children>
+                    <Button fx:id="signRegBtn" layoutX="447.0" layoutY="18.0"
+                            mnemonicParsing="false" onAction="#MainWindowOpen"
+                            prefHeight="35.0" prefWidth="62.0" style="-fx-background-color: lightgray;" text="Назад">
+                        <font>
+                            <Font name="Comic Sans MS" size="14.0" />
+                        </font>
+                        <cursor>
+                            <Cursor fx:constant="DEFAULT" />
+                        </cursor>
+                        <effect>
+                            <Reflection fraction="0.44" topOpacity="0.33" />
+                        </effect>
+                    </Button>
+                </children>
+            </AnchorPane>
+
+        </children>
+    </AnchorPane>

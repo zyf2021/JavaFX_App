@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AnchotPane_1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane fx:id="AnchorPane_Top" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="60.0" layoutY="17.0" text="МАРАФОН 2016" textFill="#fafafa">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="AnchorPane_Botton" layoutY="330.0" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: gray;">
+         <children>
+            <Button fx:id="signRegBtn" layoutX="447.0" layoutY="18.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="62.0" style="-fx-background-color: lightgray;" text="Войти">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Reflection fraction="0.44" topOpacity="0.33" />
+               </effect></Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="donateBtn" layoutX="163.0" layoutY="109.0" mnemonicParsing="false" onAction="#DonateWindowOpen" prefHeight="44.0" prefWidth="217.0" style="-fx-background-color: lightgray;" text="Стать спонсором">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font></Button>
+      <Button fx:id="runnerBtn" layoutX="163.0" layoutY="173.0" mnemonicParsing="false" onAction="#RunnerWindowOpen" prefHeight="44.0" prefWidth="217.0" style="-fx-background-color: lightgray;" text="Стать бегуном">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="moreInfoBtn" layoutX="163.0" layoutY="239.0" mnemonicParsing="false" onAction="#MoreInfoWindowOpen" prefHeight="44.0" prefWidth="217.0" style="-fx-background-color: lightgray;" text="Узнать больше информации">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
