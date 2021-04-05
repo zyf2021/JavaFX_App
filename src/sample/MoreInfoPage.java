@@ -13,12 +13,12 @@ import java.util.logging.Logger;
 
 public class MoreInfoPage {
     @FXML
-    Button backBtn;
+    Button backBtn1;
 
     public void MainWindowOpen(ActionEvent actionEvent) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-            Scene scene = backBtn.getScene();
+            Scene scene = backBtn1.getScene();
             scene.setRoot(root);
         }
         catch(IOException e) {

@@ -48,7 +48,7 @@ public class Controller {
     }
     public void MoreInfoWindowOpen(ActionEvent actionEvent) {
         try{
-            Parent root = FXMLLoader.load(getClass().getResource("moreInfoPage.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("moreInfoPage1.fxml"));
             Scene scene = moreInfoBtn.getScene();
             scene.setRoot(root);
         }
